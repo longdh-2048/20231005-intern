@@ -5,14 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "fix-code": "prettier-eslint --write 'src/**/*.{js,jsx}' ",
-    "fix-styles": "prettier-stylelint --write 'src/**/*.{css,scss}' ",
-    "lint": "prettier --check .",
-    "format": "prettier --write ."
+    "start": "next start"
   },
   "dependencies": {
-    "husky": "^8.0.3",
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18"
@@ -22,25 +17,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10",
-    "eslint": "^8",
-    "eslint-config-next": "13.5.4",
-    "postcss": "^8",
-    "prettier": "^3.0.3",
-    "prettier-eslint": "^15.0.1",
-    "prettier-eslint-cli": "^7.1.0",
-    "prettier-stylelint": "^0.4.2",
     "tailwindcss": "^3",
     "typescript": "^5"
-  },
-  "husky": {
-    "hooks": {
-      "applypatch-msg": "echo '[Husky] applypatch-msg'",
-      "pre-applypatch": "echo '[Husky] pre-applypatch'",
-      "post-applypatch": "echo '[Husky] post-applypatch'",
-      "pre-commit": "echo '[Husky] pre-commit' && prettier --write . && git add -A . && lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*": "prettier --write"
   }
 }
