@@ -1,6 +1,4 @@
-
 <div  id="top"></div>
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -18,25 +16,24 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 <p  align="right">(<a  href="#top">back to top</a>)</p>
 
 ### Built With
 
-* [Next.js](https://gitlab.nal.vn/fplat/opinion-park-fe/-/blob/develop/docs/nextjs.md)
+- [Next.js](https://gitlab.nal.vn/fplat/opinion-park-fe/-/blob/develop/docs/nextjs.md)
 
-* [React.js](https://reactjs.org/)
+- [React.js](https://reactjs.org/)
 
-* [Tailwind](https://gitlab.nal.vn/fplat/opinion-park-fe/-/blob/develop/docs/tailwind.md)
+- [Tailwind](https://gitlab.nal.vn/fplat/opinion-park-fe/-/blob/develop/docs/tailwind.md)
 
 <p  align="right">(<a  href="#top">back to top</a>)</p>
 
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -59,11 +56,6 @@ This is an example of how to list things you need to use the software and how to
    ```
 4. Enter your API in `config.js`
    ```js
-   const API_KEY = '';
+   const API_KEY = "";
    ```
-<p  align="right">(<a  href="#top">back to top</a>)</p>
-
-
-
-
-
+   <p  align="right">(<a  href="#top">back to top</a>)</p>
