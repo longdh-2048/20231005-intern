@@ -14,7 +14,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }): JSX.Element =>
   return (
     <html lang="en">
       <body>
-        <div className='w-full'>
+        <div className='w-full font-sans[Avenir Next]'>
           <ReduxProvider>
             <Header />
               {children}

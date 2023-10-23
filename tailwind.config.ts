@@ -14,6 +14,9 @@ const config: Config = {
       colors: {
         primary: '#003b94',
         secondary: '#003b94'
+      },
+      fontFamily: {
+        sans: ['Avenir Next', 'BlinkMacSystemFont', '-apple-system', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif']
       }
     }
   },

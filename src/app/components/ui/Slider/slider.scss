@@ -1,0 +1,24 @@
+.slick-arrow{
+    right: 10px;
+    z-index: 10;
+}
+.slick-next{
+    top: 35%;
+    &::before{
+        opacity: 1;
+        font-size: 40px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        color: gray;
+    }
+}
+
+.slick-prev {
+    left: -15px;
+    top: 35%;
+    &::before{
+        opacity: 1;
+        font-size: 40px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        color: gray;
+    }
+}
