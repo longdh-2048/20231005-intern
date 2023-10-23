@@ -1,9 +1,9 @@
 import React from 'react'
-import './globals.css'
+import './globals.scss'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Header from './components/common/Header'
+import Footer from './components/common/Footer'
+import ReduxProvider from './store/provider'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -14,7 +14,13 @@ const RootLayout = ({ children }: { children: React.ReactNode }): JSX.Element =>
   return (
     <html lang="en">
       <body>
-        <div className={inter.className}>{children}</div>
+        <div className='w-full'>
+          <ReduxProvider>
+            <Header />
+              {children}
+            <Footer />
+          </ReduxProvider>
+        </div>
       </body>
     </html>
   )
