@@ -1,0 +1,27 @@
+.bgtext{
+    background-color: #006ce4;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: -100px 0;
+    max-width: 500px;
+    padding-left: 10%;
+    position: relative;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.bgdiv{
+    background-color: #ffb700;
+    border-radius: 50%;
+    bottom: 40px;
+    height: 64px;
+    left: -20px;
+    position: absolute;
+    width: 64px;
+}
+// .slick-arrow{
+//     display: none !important;
+// }
