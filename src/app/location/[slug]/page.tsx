@@ -6,7 +6,7 @@ import Link from 'next/dist/client/link'
 import { hanoiHotels, type HotelItem } from '../fakeAPI/listhotel'
 import Skeleton from './Skeleton'
 
-const listHotel = ({ params }: { params: { slug: string } }): React.ReactElement => {
+const listHotel = ({ params: { slug } }: { params: { slug: string } }): React.ReactElement => {
   const [hotels, setHotels] = useState([] as HotelItem[])
 
   useEffect(() => {
@@ -28,8 +28,8 @@ const listHotel = ({ params }: { params: { slug: string } }): React.ReactElement
           {
             (hotels.length > 0)
               ? (hotels.map(ele => (
-                <Link href={'/'} key={ele.id}>
-                <div className='mt-4 w-full p-4 grid grid-cols-4 gap-2 border border-[#e7e7e7] rounded-lg '>
+                <Link href={`/location/${slug}/${ele.id}`} key={ele.id}>
+                <div className='mt-4 w-full p-4 grid grid-cols-4 gap-2 border shadow-xl border-[#e7e7e7] rounded-lg '>
                   <div className='left'>
                     <img src={`${ele?.img}`}
                     alt={`${ele?.title}`}

@@ -12,7 +12,7 @@ export default function Header (): JSX.Element {
     <HeaderRoot>
       {/* start top nav */}
       <nav className='xl:mx-auto xl:max-w-6xl w-full p-4 flex justify-between text-white py-'>
-        <Link href={''}>
+        <Link href={'/'}>
           <div className='Logo'>
             BOOKING.COM
           </div>

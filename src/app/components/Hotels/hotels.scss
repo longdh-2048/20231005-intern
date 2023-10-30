@@ -1,0 +1,23 @@
+.moreImages {
+  position: relative;
+
+  &::before{
+  content: 'xem thêm hình ảnh';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(0.2px);
+  z-index: 10;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  border-radius: 0.25rem;
+
+  }
+} 
